@@ -35,7 +35,7 @@ const tempLinks = data.map(link => {
     </li>
   )
 })
-// I KNOW WE CAN COMBINE IT !!!!!
+// Above and below can be combined
 
 export default ({ styleClass }) => {
   return (
