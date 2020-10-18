@@ -9,7 +9,6 @@ import Blogs from "../components/Blogs"
 
 export default ({ data }) => {
 
-  console.log("data", data);
   const { allStrapiProjects: { nodes: projects } } = data;
 
   return <Layout>
