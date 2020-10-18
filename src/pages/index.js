@@ -19,7 +19,7 @@ export default ({ data }) => {
     <Services />
     <Jobs />
     <Projects projects={projects} title="Featured Projects" showLink />
-    <Blogs blogs={blogs} title="Blog" showLink />
+    <Blogs blogs={blogs} title="Latest Articles" showLink />
   </Layout>
 }
 
